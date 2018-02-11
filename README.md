@@ -21,9 +21,9 @@ To maintain this single source of truth, redux app make the state <strong>read-o
 Typically, proper state management in Redux app should manage data such as <strong>form state</strong>, <strong>server response</strong>, <strong>Cached Data</strong>, and <strong>local data not yet persisted to a server</strong>
 ### 2. Redux Improves Predictability
 Redux use a store to keep all the states so in a nested condition, the app dont need to pass state through a bounch of components. Like this:
-![Figure1 nested components without redux.png](quiver-image-url/3EE8345FB30A7385681297E186FCE922.png =274x251)
+![Figure1 nested components without redux.png](https://c1.staticflickr.com/5/4743/40178140292_71553f314c_o.png)
 By apply redux, the app just need to retrieve data from store, which dramatially improves the predictability
-![Figure2 nested components with redux.png](quiver-image-url/5D5B1BBC4D94E9113DFE49EC4BE112D1.png =288x318)
+![Figure2 nested components with redux.png](https://c1.staticflickr.com/5/4652/39313226015_e743015068_o.png)
 Which is also called <strong>unidirectional data flow</strong>.
 <strong>Recap</strong>
 Redux provide predictability by
@@ -96,7 +96,7 @@ Redux have three major players
 - store
 - reduce
 They are interactive, shown in below image
-![Figure3 Redux players.png](quiver-image-url/7FCA3FB92F070EC629CB0FE990BFE21E.png =544x293)
+![Figure3 Redux players.png](https://c1.staticflickr.com/5/4740/40210873351_e6df90ec6a_b.jpg)
 
 ### 7. Create an action
 Actions are JS objects that describe an event that should update the application's state.
@@ -174,5 +174,7 @@ registerServiceWorker();
 ```
 
 ## Conclusion
+Redux is a very good structure to manage states.
+
 ## Code Reference
 https://github.com/BridgeNB/Redux-Learning-Note-1
