@@ -21,9 +21,13 @@ To maintain this single source of truth, redux app make the state <strong>read-o
 Typically, proper state management in Redux app should manage data such as <strong>form state</strong>, <strong>server response</strong>, <strong>Cached Data</strong>, and <strong>local data not yet persisted to a server</strong>
 ### 2. Redux Improves Predictability
 Redux use a store to keep all the states so in a nested condition, the app dont need to pass state through a bounch of components. Like this:
+
 ![Figure1 nested components without redux.png](https://c1.staticflickr.com/5/4623/28431249999_eda74c9d12_o.png)
-By apply redux, the app just need to retrieve data from store, which dramatially improves the predictability
+
+By apply redux, the app just need to retrieve data from store, which dramatially improves the predictability like this:
+
 ![Figure2 nested components with redux.png](https://c1.staticflickr.com/5/4652/39313226015_e743015068_o.png)
+
 Which is also called <strong>unidirectional data flow</strong>.
 <strong>Recap</strong>
 Redux provide predictability by
